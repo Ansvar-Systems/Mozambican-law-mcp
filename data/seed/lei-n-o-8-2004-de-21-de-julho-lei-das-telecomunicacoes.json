@@ -1,0 +1,580 @@
+{
+  "id": "lei-n-o-8-2004-de-21-de-julho-lei-das-telecomunicacoes",
+  "type": "statute",
+  "title": "Lei n.o 8/2004 de 21 de Julho - Lei das Telecomunicacoes",
+  "title_en": "Lei n.o 8/2004 de 21 de Julho - Lei das Telecomunicacoes",
+  "short_name": "Lei n.o 8/2004 de 21 de Julho - Lei d...",
+  "status": "in_force",
+  "issued_date": "2004-01-01",
+  "in_force_date": "2004-01-01",
+  "url": "https://www.wipo.int/wipolex/en/legislation/details/6415",
+  "provisions": [
+    {
+      "provision_ref": "art4",
+      "section": "4",
+      "title": "Ambito",
+      "content": "ARl'IGO 5 (Classlflear;Ao de servi~os c redcs de telec.omunlca~oes)"
+    },
+    {
+      "provision_ref": "art6",
+      "section": "6",
+      "title": "Servi~os de teiecomunica~6es",
+      "content": "Servi~os de teiecomunica~6es"
+    },
+    {
+      "provision_ref": "art7",
+      "section": "7",
+      "title": "Redes publicas de telecomunlca~6c~",
+      "content": "AlniGO 8 (Rcdes privativas de telecomunlcayocs) CAPiTULO IITutela das telecomunica~oes"
+    },
+    {
+      "provision_ref": "art9",
+      "section": "9",
+      "title": "Competenelas do Governo",
+      "content": "ARTIOO 10 (Coordena~io das telecomunica~es em situa~iiode emergencia)"
+    },
+    {
+      "provision_ref": "art11",
+      "section": "11",
+      "title": "Natureza do INCM",
+      "content": "Natureza do INCM"
+    },
+    {
+      "provision_ref": "art12",
+      "section": "12",
+      "title": "Atribui~iies do INCM",
+      "content": "ARTlGo 13 (Comites de consulta)"
+    },
+    {
+      "provision_ref": "art14",
+      "section": "14",
+      "title": "Informa\\1io publica",
+      "content": "Informa\\1io publica"
+    },
+    {
+      "provision_ref": "art15",
+      "section": "15",
+      "title": "Julgaroento de contas",
+      "content": "Julgaroento de contas"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "16",
+      "title": "Classffica~Ao",
+      "content": "Classffica~Ao"
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "17",
+      "title": "Atrjbul~io de licen~as e reglstos",
+      "content": "ART/GO I8 (Concursos pubUcos)"
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "19",
+      "title": "VaUdade das Iicen\\18Se registos",
+      "content": "VaUdade das Iicen\\18Se registos"
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "20",
+      "title": "Equipamento terminal",
+      "content": "CAPiTULO IVRadiocomunicayoes"
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "21",
+      "title": "Espectro de frequenclas",
+      "content": "Espectro de frequenclas"
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "22",
+      "title": "",
+      "content": "(Uso das radlocomunjca~6es para prop6sltos de defesa e. seguran\\1a ARTIao 23 (UtUiza~o do espectro de rrequ~ncias)"
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "24",
+      "title": "Aplica~Oes industriais, cientificas e medieas",
+      "content": "ARTlao 25 (Piano nadonal de atribui-;ao de frequencias) ARTlao 26 (Registo nacional e internacional de frequencias) ARTlao 27(Exposi~ao a radia-;oes electromagneticas)"
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "28",
+      "title": "Regime de acesso a actividade",
+      "content": "ARTlao 29 (Licen~s de radiocomunicayoes) ARTlao 30 (Traosmissibilidade das liceoyas)"
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "31",
+      "title": "Sistemas de radiocomunica~Oe!l isentos de licen~as",
+      "content": "ATIGO 32 (Radiocomunica~oes interditas)"
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "33",
+      "title": "Taxas radloeleetrlcas",
+      "content": "ARl'lGO 34 (Instalayao de estayoesde radiocomulllca~ocs) ARllGO 35 (Partilha de Jnfra-estruturas de radiocomunlcayoes)"
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "36",
+      "title": "Esta~6es de eomprova~Ao tceniea das emiss~es",
+      "content": "Esta~6es de eomprova~Ao tceniea das emiss~es"
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "37",
+      "title": "Fiscallza~Ao radloelectrica",
+      "content": "CAPiTULO VUOIversalidade de servi~os ARTlGo 38 (Scrvicro de aeesso unIversal) ARTICio 39 (Presta~i\\o do servi~o de acesso universal)"
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "40",
+      "title": "Projectos do servl~o de acesso universal",
+      "content": "Projectos do servl~o de acesso universal"
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "41",
+      "title": "Fundo'do servi~o de. ac:esso universal",
+      "content": "CAPITULOVIAcesso e interl1gayao"
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "42",
+      "title": "Prindpios de interJiga~o",
+      "content": "Prindpios de interJiga~o"
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "43",
+      "title": "Contratos de ac:esso e interliga~ao",
+      "content": "Contratos de ac:esso e interliga~ao"
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "44",
+      "title": "Partilha de infra~estruturag-na jnterliga~o",
+      "content": "Partilha de infra~estruturag-na jnterliga~o"
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "45",
+      "title": "Acesso a torres e a facilidades subterraneas",
+      "content": "CAPITULOVIINumefa~ao e tarifas"
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "46",
+      "title": "Piano nacional de numera~ao",
+      "content": "Piano nacional de numera~ao"
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "47",
+      "title": "(Principlos tarifarios e procedlmentos",
+      "content": "ARTIOO 48(Estudos de custos e procedimentos contabUfsticos CAPiTULO VIIIQualidade do servi~o e protec9io do consumidor ARTlao 49 (InCorma~ito sobre os nfvels de desempenho)"
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "50",
+      "title": "Direttos dos eonsumJdores",
+      "content": "Direttos dos eonsumJdores"
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "51",
+      "title": "(Obriga~(les dos operadores e prestadores de servi~osde telecomunica~(les",
+      "content": "ARTIGOS2(DiCerendos entre operadores, prestadores de servl~ose comsumidores) CAPiTULO IXDefesa da concorrencia"
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "53",
+      "title": "Principlos de concorrencia",
+      "content": "CAPiTULO XRegime sancionat6rio"
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "57",
+      "title": "",
+      "content": ".(Interferencia prejudicial)"
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "58",
+      "title": "Uso indevido de servl~o de telecomunica~6es",
+      "content": "Uso indevido de servl~o de telecomunica~6es"
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "59",
+      "title": "Recusa de prestacio de jnforma~ao",
+      "content": "Recusa de prestacio de jnforma~ao"
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "60",
+      "title": "O~stru~io da informa~ao",
+      "content": "O~stru~io da informa~ao"
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "61",
+      "title": "Uso fraudelento do sistema de telecomunica~oes",
+      "content": "AHIIGo 62 (Impcdillll'lIlIIao acesso e intcrllga~iio)"
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "63",
+      "title": "Uso de equlpamcnto terminal nAoautorlzado",
+      "content": "Uso de equlpamcnto terminal nAoautorlzado"
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "64",
+      "title": "Intcrcep~iio negal das contunica~acs",
+      "content": "ARllGO 65 (Penas acess6rias)Todo aquele que for,condenado pe!as infrac90es AlmGo66(Instaura~io de processo) CAPiTULO XIID1Sposi~Oes dlversas ARriGO 67(Tclecomunica~6es interditas) ARIIGO 68(Sigilo das comuniea90es) AlrrlGO 69 (Direitos de autor) CAPiTULO XIIIDisposi~oes finais e transit6rias AlrI\"lGO70(Regimo transitorio)"
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "71",
+      "title": "Salvaguarda do!! ~ircitos adquiridos",
+      "content": "Salvaguarda do!! ~ircitos adquiridos"
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "Capitulo III - Licenciamento e registo",
+      "section": "72",
+      "title": "Norma rcvogat6ria",
+      "content": "GLossARIO I SERlE -Numero 29 , BOlETIM DAR&PUBUC A PUBLICACAOOFICIALDAREPUBLICADEMOCAMBIQU E IMPRENSA NACIONAL DE MO<;AMBIQUE AVI.S 0 A materia a publicar no «B~letim da Republica» deve ser remetidaemcopia devidamenteautenticada,uma porcadaassunto, dondeconste,alemdasindicayoes necessanas paraesseefeito,0averbamentoseguinte,assinado e autenttcado: Para publica~ao no \"Boletim da Republica\" ~.......................... . SUMARIO Assembleia da Republica: Lei nO 8/2004: Aprova a lei das Telecomunica~es, e revoga a Lei 1'10 14/99, de 1 de Novembro. Lei nO 912004: Allera osartlgos1,2,3,4, 5,6,7,10,11,12,13,14,15,17,18.19, 20,21.23,24,32,40,41,49,51,52,55,59,65.66,68,73,77, 78,79,81, 83.84,106,107,108,110,116,117, 118,11ge 120, da LeIno 15/99. de 1 de Novembro. Ministerio do Interior: Diploma Ministerial n.O119/2004: Concedea nacionalidademo(famblcana, por n alurahza(fi!o,a Samgi Lalil. Diploma Ministerial n,o 120/2004: Concedea nacionalidademO(fambicana, por naturalizac;ao, aAshraf All MohammadAll. Diploma Ministerial 0.° 12112004: Concede a naciohalidade moc;:ambicana,por naturaliza(fi\\o, a Lauriano Gon(f3IYes. Diploma Ministerial 1'1.°122/2004: Concedea naClonalidademoc;:ambicana,a Slllian por nalurallzac;:i!o, Hristov Simeonov. Diploma Ministerial 1'1.° 12312004: Concede a nacionalidade mO(f3mblcana,por naturahzac;:i!o,a Pedro Ivo lopes de Matos Neves. Gabinete de Informa98o: Despacho: Nomela VictorFernando Mbebe,para membrodo Conselhode Adminislrac;:aoda TVM-EP. Despacho: Nomela Mlchaque Jose Mambo, para membro do Conselho de Admlnistrac;ao da TVM-EP. ASSEMBLEIA DA REPUBLICA Lei 0.0 8/2004 de 21 de Julho Tendo em conta 0 nipido desenvolvlmenlo que caracteriza 0 sector das telecomunica~oes, bem como a sua evolu~ao tecnol6gica, t0111a-senecessario que 0 quadro juridico na~ional seja comparivel e se ajuste a tais fenomenos, por forma a fazer face aos desafios emergentes. Nestes tennos, ao abrigo do disposto no n.o I do artigo 135 da Constitui~ao, a Assembleia da Republica determina:"
+    },
+    {
+      "provision_ref": "art4",
+      "chapter": "Capitulo I - Disposic;oes Gerais",
+      "section": "4",
+      "title": "",
+      "content": "(Ambito) 1.0 disposto na presente Lei ap\\ica~seao estabelecimento, gestao e exploraciio de redes e servicos de telecomunicacoes, excepto: a) os aspectos relacionados com os conteudos dos programas dos servicos de radiodifusao son~ra e televisiva; b) as redes e servicos de telecomunicacoes estabelecidos pelo Govemo para tins meteorologicos, maritimos e aeronauticos; c) as redes e servicos de telecomuQicacoes opel'adas pelas Forr;as de Defesa' e Seguranca, no exercicio das suas funcoes; d) as redes e servi((os de telecomunicacoes estabelecidos para 0 usa pelos servicos de saude e bombeiros, em situar;80 de emergencia e de calamidade publica e equiparados. dispostonasalirieas b),c) e (I) do numeroanterior deve ser en(endido sem prejuizo da necessidade de coordenar a atribuicilo de frequencias r.adioeI6ctricas. nos tennos do n° 3 do artigo 25 da presente Lei. As missoes diplomaticas e stabelecidas no pa is podem estabelecer e operar redes privativas de telecon1llnicayoes. incluindo aparelhos de radiocomunicacoes, cujos teri'nos e condiryoes silo fixadaS em regulamentar;ao especlfica. ARl'IGO5 (Classlflear;Ao de servi~os c redcs de telec.omunlca~oes) I. As telecomunicar;oes classificam-se em servir;os e redes. 2. Os servir;os de teh:comunicar;oes podem ser: a) serviyos publicos de telecomunicacoes; b) serviyos privativos de telecomunicacoes. 3. As redes de telecomunicar;oes podem ser: a) redes public as de telecomunicayoes; b) redes privativas de telecomunicayoes."
+    },
+    {
+      "provision_ref": "art6",
+      "chapter": "Capitulo I - Disposic;oes Gerais",
+      "section": "6",
+      "title": "",
+      "content": "(Servi~os de teiecomunica~6es) I. Servicos public os de telecomunica90es: a) consideram-se servi90s publicos de telecomllnicar;oe s os servi90s que se prestam ao publico em geral ; b) a prestar;ao de servi90s publicos de telecornunicar;oe s esta sujeita a licen9a ou.registo, 1'Iostermos da presente lei; c) os servitros publicos de telecomunicar;oes que far;am 0 uso de frequencias radioeiectricas, e stiio sujeitos a0 preceituado no Capitulo IV da presente Lei. 2. Serviyos privativos de telecomunicar;oes: a) consideram-se telecomunicar;oes privativas os servilfos que se prestam a urn grupo fcchado de utentes, 0 qual , nao esta interligado a rede publica de telecomunicar;oes; b) a prestay80 de servir;os privativos de telecomunicayoes esta sujeita a'registo nos tennos da presentc Lei; c) os serviyos privativos das telecomunicayoes que far;am uso de frequencias radioelectricas ostia sujeitas ao preceituado no Capitulo IV da presente lei) nos aspectos' a que disser respeito; d) os prestadores de serviyos privativos de telecomunicayOes que pretendcrem prestar servir;os de teiecomunicayoes, ao publico d evem requerer a I icenya ou registo de tel~comunicar;l5es\"deacordo com 0 anigo 17Ciapresente Lei."
+    },
+    {
+      "provision_ref": "art7",
+      "chapter": "Capitulo I - Disposic;oes Gerais",
+      "section": "7",
+      "title": "",
+      "content": "(Redes publicas de telecomunlca~6c~) 1.E \\ibera1izado 0 estabelecimento, ,gestAoe exp\\orsyio de redes publicas de telecomunic8trOes. estabelecimento,gestiioeexplol'aciio de redes public as de telecomunicayOesapenns pode ser condicionado por limitayoes do espectro de frequencins, peln disponibilidade de mimeros suficientes ou par razoes de segurantra e ordem pubiicas. 0 s requisitos a que devem obedecer as. entidades que pretel1dnm aceder i1 actividade de operador de rede publica de telecomunicacoes, bem como os temlOSe condicoes das Jicencas do definidos em reguhimentayao cspecffica. AlniGO8 (Rcdes privativas de telecomunlcayocs) Podem estabelecer e utilizar redespri vativas de telecomunicatroes pessoas singulares e colect.ivas para suporte de comunicar;oes pa~a uso proprio Oll por um numero restrito de utilizadores, nilo envoivendo recurso de I\\umeracrilopublica. enderecamento Ollqualquer explonir;80 comercial. A rede privativa de telecomunicacroesn1l0pode ser usada para revendll. Excepcionaimcnte, 0 proprietario da rede privativa p.ode revender a capacidade extra existente das suas instalacoes, ceder ou transfel'ir au, por qualquer forma, alienar os direitos de usa das referidas i nstalacroes a favor de um ope radar de rede de telecomunicar;Oes,para providenclar servicrosde telecomunicar;Oes de uso pt1blico. 4. 0 estabelecimento de redes privativas esta sujeito aos procedimentos de registo preconizados na presente lei."
+    },
+    {
+      "provision_ref": "art9",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "9",
+      "title": "",
+      "content": "(Competenelas do Governo) Compete ao Govemo: a) definir asp oUtieas e as linhns e strat6gicas para 0 desenvolvimento do sector de telecomunicayoes ; b) aprovar a regulamenta980 aplicavel para 0 sector d e telecomunicar;Oes; c) promover a existeilCia. disponibilidade e qualidade de redespublicasde telecomunicayOesqueivaaoencontro das necessidaqes de comunicacao dos-cidadaos e das actividades econ6micas e sociais em todo 0 territ6rio nadonal. e a ssegurar as Iigar;oes internacionais, ,tomando ein c0l1siderar;8o os requisitos de um desenvolvimento econ6mico e social harmonioso e equilibrado; d) assegurar a existencia e disponibilidade dos servi~os publicos de t~lecomunicayoes para todos os cidadaos e promover 0 serviyo de acesso universal de telecomunicat;oes; e) aprovar os principios gerais de fixayao de taxas e de tarifas dos servicrosde telecomunicacOes.sob proposta do Instituto Nacional das Comunica90es de Mor;ambique, abreviadamente designado pOl'INCM; 1) fonnular a'politica do servir;o de acesso universal CQm particular rea Ice para as zonas rurais; g) fixar as tarifas cobradas no ambito do selviyo de acesso universal; II) estabelecer outras c1assifica(,:oes de redes e servi90s de telecomuniaqOes, sob propost~ do INCM; I) promover 0 investimento no sector das telecomunica90es e fomentar a justa concorrencia. ARTIOO 10 (Coordena~io das telecomunica~es em situa~iio de emergencia) E da responsabihdade do Govemo assegurar uma coordena9ao adequada das redes e servif;:osde telecomunicaf;:oes em situaf;:oes de emergencia, calamidade publica, crise ou guerra, de acordo com a legisla9ao em vigor. N as c ircunstimcias mencionadas no n umero anterior, 0 Governo pode, no cumpnmento das suas obriga90es, emitir instru90es com caracter obrigat6rio para os operadores de redes, prestadores dos servif;:osde tele~omunicaf;:oes, bem como 0s operadores de radiocomunicas:oes. Para efeitos do dlsposto no nO1 do presente artigo, 0 INCM deve organizar e disponibllizar ao Govemo informaf;:oesrelativas aos operadores de rC(des, prestadores de serv~fos de telecomunicacroes e demais operadores de radiocom unicaeroes na area civd. ARTIGO II (Natureza do INCM) 0 Instituto Naciopal das Comunic3croes de Mocrambique e uma institui9ao publica, autoridade regulador.a, dotada de personalidade J uridica, autonomia a dmirlistrativa, financeira e patnmomal que desempenha as suas funeroes em conformid!!de com a presente Lei e 0 seu Estatuto Organico, assegurando-sethe as prerrogativas necessarias ao exercicio adequado da sua competencia com base na imparcialidade e transparencia. A autonomia financeira refenda no numero anterior obedece ao disposto na Lei do Sistema de Administra9aO Fmanceira do Estado. 3. Aorganizal;ao e 0 funcionamento do INCM e regulado pelo Estatuto Organico, aprovado pelo Govemo."
+    },
+    {
+      "provision_ref": "art12",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "12",
+      "title": "",
+      "content": "(Atribui~iies do INCM) Sao atribui90es do INCM, sem prejuizo de outras competencias que Ihe forem acometidas, as seguintes: a) aptiear a presente Lei e os respectivos regulamentos; h) regular aetlvidades especiticas ligadas its telecomuni. ca~oes; c) fiscalizar os servicros e actividades e specifieas de telecomunica90es; d) prornover os tipos e a qualidade dos servifos das telecomunical;oes, tendo em conta 0 interesse publico, o desenvolvimento tecnol6gico e s6cio-econ6mico; e) promover uma concorrencia sa na prestaf;:aode servi<;os e redes de telecomunicacroes, tomando as m edidas necessarias para prevenir pT!1tlCaSanti-concorrenciais e abusos da parte de operadores com uma posi<;iio sigmficativ3; j) ptanificar, !iscalizar. consignar e gerir 0 espectro de frequencias e as posi~oes orbitrais, de acordo com os interesses nacionais; g) atribuir e emitir licen~as (}registos de telecomuni<;aeroes, incIuindo licen~as para os servi90s de radiocomuni C8er0e5; h) coordenar 0 usa do espectro de frequencias ao nivel nacional, regional e intemacional; i) regular 0 acesso e a interligacriiodas redes de teIecQffiunica(,:oes~ J) estabelecer e aplicar mutjas ou OUtrassan96es as entidades licenciadas e registadas de servi~os de telecomunica<;oes; k) estabeleeer e cobrar as taxas de atribuicrao, alteracraoe renovacraode licencrae registo, taxas anuais de utilizacrao do espectro de frequencias, taxas de homologa~ao do material e equipamento de telecomunica<;oes e outras que por disposi~ao especial venham a ser determinadas pelo INCM; I) proceder a normalizal;ao, aprovaerao e homotogaerao dos materiais e equipamentos de telecomunica~oes, nomeadamente equipamento terminal fixo e mover e regulamentar as condicroes para 0 seu uso; Ill) atribuir, modificar, renovar, suspender, revogar e cancelar licencrase registos de redes e servicrosde tetecomunica<;oes e radiocomunicaeroes; n) propor os principios gerais de fixa~ao das tarifas para a presta9ao dos servil;os de telecomunicaeroes; 0) regular 0 servi~o de acesso universal e gerir 0 fundo do servicro de acesso universal; p) regular e gerir 0 pIano de numera~ao, incluindo a atribuicrao e distribuierao de numeros; q) resolver os diferendos entre operadores, prestadores de servi<;osde te1ecomunica<;oese consumidores, nos termos do nO5 do artigo 52 da presente Lei; r) fiscalizar 0 desempenho dos operadores e prestadores de servicrosde telecomunicacrOes,tomando as medidas apropriadas para0cumprimento dasdlsposicroeslegais aplidveis; s) recolher informacoes dos operadores e prestadores de servi90s de telecomunicacroes e radiocomunica9oes, incIuindo dados e statisticos, custos, proeedimentos contabilisticos, niveis de desempcnho e de vendas, bem como outros documentos, registos ou qualquer outra informa9ao relevante para 0 desempenho das suas 'fun~oes e divulgar relat6rios sobre indicadores do sector de telecomunicacroes; t) implementar tudo 0 que esteja relacionado com a execu~ao de ~ratados i nternacionais, 'conveneroes e acordos relacionados com as telecomunica90es; u) representar 0 pais em organismos intemacionais, reunioes e negocial;oes no ambito das telecomunica~oes; v) promover a cooperaf;:ao com as administra90es de telecomunicaeroes dos paises da regiao, com vista ao prosseguimento de objectlvos e interesses comuns; w) realizar auditorias, inspec90es e providenciar a produ~ao de provas, incIuindo a audi9ao de testemunhas, dos operadores e prestadores de servicros de telecomuni cacoes; x) elaborar e propor regulamemos nos termos da presente Lei. ARTlGo13 (Comites de consulta) o INCM deve criar corrutes de consulta compostos porpessoas com conhecimentos adequados para representar os IOteresses e os p ontos de vista d os utilizadores, dos c onsumidQres, d os operadores e prestadores de servlcros de telecomunicacroes,.com o flIDde aconselhar 0 Instituto em questoes tecmcas especificas."
+    },
+    {
+      "provision_ref": "art14",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "14",
+      "title": "",
+      "content": "(Informa\\1io publica) o INCMpublicaanualmenteno Boletim da Republica. 0 se u relatorio anual, contendo, entre outros, os seguintes aspectos : a) licen~asatribuidas, modificadas, renovadas ou revogadas ao abrigo da p resente Lei, anexando, sempre que posslvel, as condi~oes especiais de cada licenya; b) entidades isentas de pagamento de taxas concedidas no ftmbito da presente Lei; c} a IJsta das propostas de referencia de Jnterligayiio e de todos os acordos de inter1iga~aosubmetidos ao INCM; d) os mere ados definidos e os operadores com pOSiyBO significatlva; e) as tarifas registadas pelo INCM."
+    },
+    {
+      "provision_ref": "art15",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "15",
+      "title": "",
+      "content": "(Julgaroento de contas) o INCM apresenta, para efeitos de julgamento, as suas conta s ao Tribunal Administratlvo . CAPiTULO 111 Licenciamento e registo"
+    },
+    {
+      "provision_ref": "art16",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "16",
+      "title": "",
+      "content": "(Classffica~Ao) As autorizayoes para operayao de serviyos de telecomunica~oe s classificam-se em : a) hcenyas de telecomunicayoes ; b) registos de telecomunicayoes ; c) licenyas de radiocomunicayoes ."
+    },
+    {
+      "provision_ref": "art17",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "17",
+      "title": "",
+      "content": "(Atrjbul~io de licen~as e reglstos) 1. Carecem de licencra: a) a presta~Bo do servi~o fixo de telefonia ; b) a prestayao do servi~o move I de telefonia celular ; c) 0 estabelecimento de redes publicas de telecomunicalJoes ; d) os servi~os e redes de telecomunica~oes que utiliza m frequencias radioelectricas. Os servil;os de telecomunicayoes nao mencionados no numero anterior carecem apenas de registo de telecomunic~~oes, a INCM, verificados os requisitos exigidos, atribui: a) licen~asde teleco01unica~oesIIqualquer pessoa colectiva registllda em Mo~ambique; b) registos de telecomunicayoes a qualquer pessoa singular e colectiva registada em Mo~ambique; c) licen~as de radiocomW1ica~oesa qualquerpessoa singular e colectiva registada em Moc;ambique. 4. as p rocedimentos para obten~io dDS licen~as e r egistos referidos no nU01eroanterior sao 0 bjecto de regulamentayiio especifica. ART/GO IS (Concursos pubUcos) l. E da competencia do INCM a decis~o sabre a rea1izac;ao dos concursos publicos para atribuic;io de licenyas de telecomunica~oes ou de radiocomunica~oes quando envolvam 0 uso de espectro de frequencias, numerayao ou outro reeurso eseasso. 2. As regras, fom'\\as e procedimentos dos concursos pub\\icos devem ser ,estabeleeidos e publieados pelo INCM nos termos a regulamental~com pelo menos urn mes de antecedencia em relayilo a data do lanyamento do concurso publico."
+    },
+    {
+      "provision_ref": "art19",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "19",
+      "title": "",
+      "content": "(VaUdade das Iicen\\18Se registos) I.Aslicenr;as para operadores dos servir;os de tetecomunic~Oes tern uma validade maxima de vinte e cinco anos. as registos para os prestadores de servi~os de telecomunica~oes tem uma valida de maxima de cinca ~mos. A renovar;ao das licenc;as e dos registos e feita mediante urna avaliac;ao pelo INCM, tendo em conta a manifestayao de interesse e 0 nlvel de operacionalidade do operador ou prestador de servic;os de telecomunic8c;oes. 0 conteUdo das ticenc;as e dos registos de telecomunicac;oes, bem como das ticenyas de radiocomuoicayoes cleveser determinado nos termos de regulamentac;iio especlfica."
+    },
+    {
+      "provision_ref": "art20",
+      "chapter": "Capitulo II - Tutela das telecomunica~oes",
+      "section": "20",
+      "title": "",
+      "content": "(Equipamento terminal) I. E livre a ligac;ao as redes public as de telecomunicayoes de equipamentos terminais devidamente aprovados, de acordo com as condl~oesestabeJecidasna leI, tendo em vista a salvaguarda da integridade dessas redes de telecomunicac;oes e da adequada mteroperabilidade dos servi~os. Os fabricantes, importadores, vendedores ou outros detentores ocasionais de equlpamento terminal destinado a ser ligado Iirede de telecomunicarroes de uso publico d evem requerer a sua homologa~ilo ao INCM, tendo em vista a salvaguarda do bom func10namento da rede. 0 [NCM estabelece os padroes tecnicos tendo em consideracao os mdicadores abaixo mencionados: II) obedecer aos padroes intemacionais aplicaveis no pais, tendo em considera~ao a s8ude ambiental. seguranl;a, radiac;oes e emissoes electromagncWcas; b) nao representar risco ou ser nociva asaude publica e a rede publica ~e telecomunical;oes; c) utilizar 0 espectro de radio efectiva e eficientemente; d) ser tecnicamente compativel com a rede. A presta~ao de serviyos de instala~ao e manutenl;Bo dos equipamentos terminais dos assinantes da rede de telecomul1lcayoes de uso publico so pode ser efectuada pOl'pessoas singulares ou colectivas cbm a necessaria qualifical;!iotecnica, quando devidamente autorizados pela autondade reguladora. Os operadores de telecomunica~oes de uso publico devem assegurar liga~oes adequadas aos pontos terminais das sullSredes, independentemente de 0 equipamento terminal do assinante ser ou nilo da propriedade dos utilizadores."
+    },
+    {
+      "provision_ref": "art21",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "21",
+      "title": "",
+      "content": "(Espectro de frequenclas) I. 0 espectro de frequencias e urn recurso natural, lilnitado, e constituidominiopublico do Estado. 2. Competeao INCM a administra~ao, gestao e controlo do espectro de frequencias e rege.se pelas disposiyoes da presentc Lei, pelo piano nacional de a trlbuiyao de frequencias, pelos regulamenlos espec!ficos dos diferentes serviyos de radiocomuntcalj:oese pelos convenios e acordos intemacionais e regionais."
+    },
+    {
+      "provision_ref": "art22",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "22",
+      "title": "",
+      "content": "(Uso das radlocomunjca~6es para prop6sltos de defesa e . seguran\\1a) Em situayoes de crise ou guerra, emergenciaou catastrofes, declaradas oficialmente pelo Governo, as serviyos de radiocomunicPyCSes,nos seus aspectos operativos, regem-se pelas decisoes emitidas p or orgaos c ompetentes, no controlo das telecomunicacoes do pais. 2 J DE JULHO DE 2004 ARTIao23 (UtUiza~o do espectro de rrequ~ncias) 1.A utiliza~1iC)do espectro de frequencias esta sujeita ao regime de licenciamento. 2. 0 INCM pode, atcndendo aos objectivos da presentc Lei, decidir que algumas classes de utiliza~ao do espectro de frequencias sejam isentas de licen~a de radiocomunica~oes."
+    },
+    {
+      "provision_ref": "art24",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "24",
+      "title": "",
+      "content": "(Aplica~Oes industriais, cientificas e medieas) As aplicay5es industriais, cientificas e medicasdevem utilizar as frequencias atribuidas especificamente no' plana nacional de atribui~ao de ftequencias, MO devendo causar interferencias aos servi~os de radiocomunica~oes. ARTlao25 (Piano nadonal de atribui-;ao de frequencias) 1. 0 plana nacional de atribui~ao de frequencias e elaborado pelo INCM, com objectivo de garantir 0 usa racional e eficiente . do espectro de frequencias no pais, atribuindo bandas de frequencias especificas para sua utiliza9ao p or urn 0 u mais s ervi90s de radiocomunica~oes. 2. Na atribui9ao de bandas a dois ou mais servi~os, tem-se em conta 0 grau de prioridade de cad a urn deles no uso da referida banda e ainda as normas tecnicas e os procedimentos para facilitar a sua ap1ica~ao. Todas as esta~oes de radiocomunica~oes que operem dentro do territ6rio nacional devem faze-Io obedecendo as frequencias consignadas p~lo INCM, em confonnidade com 0 pIano nacional de atribui~ao de frequencias, cumprindo os requisitos contidos nas suas disposiyoes. 0 pIano nacional de atribui9iio de frequenC18se actualizad o de dois em dois anos . 0 pIano n acional de a tribui9iio de frequencias deve se r publicado no BQletim da Republica . ARTlao26 (Registo nacional e internacional de frequencias) 1. 0 INCM tern urn registo nacional informatizado de todas a s consigna~Oes de frequencias feitas para cada urn dos servi~os d e radiocomunicayoes estabelecidos, excepto 0 registo das Eorya s de Defesa e Segurans:a . 2. A infonnayiio contida no registo referida no nlimero anterior deve ter em conta as caracteristicas tecnicas necessarias, emissiio, coordenadas da instalas:iio e outras informayoes que possaro ser necess4rias. 3.0 INCM deve inscreyer as consignayoes nacionais no registo intemacional de frequencias da Uniio Intemacional de Telecomunica~oes, em conformidade c_omos p rocedimentos estabelecldos no Regulamento de Radiocomunica90es da Uniao InternaClOnal de Telecomunicayoes, nos cas<;>sem que se estime necessaria a protec~o intemadona! contra interferenda prejudicial. ARTlao27 (Exposi~ao a radia-;oes electromagneticas) 1. Compet~ ao lNCM publ1car por Resoluyiio no Bolenm da Republica, os niveis de interferencia definidos para efeitos de avalia9ao da exposi9iio a campos electromagnetico~, base ados em procedimentos de medi9ao e calculo reconhecidos e provados cientificamente, relativos a exposi~ao da p opula9iio a campos electromagneticos. 2. 0 INCM pode. de acordo com os elementos a que se refere o nl1mero anterior, e em casos devidaQlent~ justificados, adoptar medidas condicionantes da instalayao e funcionamento de estayoes ou antenas de radiocomunica~o~s."
+    },
+    {
+      "provision_ref": "art28",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "28",
+      "title": "",
+      "content": "(Regime de acesso a actividade) 1.0 regimedelicenciamentoradioelectriconaoprejudica0 cumprimentodas disposiyiieslegaisaplicaveisa explora9iiode redes publicas e serviyos de tclecornunicayOesde uso publico e ao estabelecimento e utiIizayao de redes privativas de telecomunica90es. 2.As entidades que pretendam obter uma licens:aradioelectrica devem encontrar-se devidamente habilitadas para 0 efeito, nos termos do regime de acesso a actividade de telecomunicayoes de uso publico; ou satisfazer as condi90es aplicaveis ao estabelecimento de redes privativas. ARTlao29 (Licen~s de radiocomunicayoes) I. A utiliza9iio de redes e de esta~oes de radiocomunica~oes esta sujeita a licen~a, sen90 a atribui9ao das mesmas da competencia do INCM. 2. Os termos e condiyiies de concessao das licen~as de radiocomunica~oese objecto de regulamentayiioespecifica. ARTlao30 (Traosmissibilidade das liceoyas) I. As Iicen9as de estayoes de radiocomunica~oes que compoem uma rede sac transmissiveis mediante autorizayao previa do INCM. A entidade. a qual for transmitida a licenya deve. sob pena de nuIidade da transmiss§o, estar legalmente habilitada:nos mesmos termos da anterior, assumindo todos os direitos e obriga~oes. As licen~as temporarias siio intransmissiveis."
+    },
+    {
+      "provision_ref": "art31",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "31",
+      "title": "",
+      "content": "(Sistemas de radiocomunica~Oe!l isentos de licen~as) Estao isentos de licen9as: a) os sistemas de radiocomunica~oes, com potencia radiada aparente correspondente a uma antena vertical curta, igual ou menor que lO miliwats, a opera rem em frequencias radioelectricas atribuidas em confonnidade com 0 pIano nacional de atribui9ao de frequencias; b) as aplica~oes industriais, cientificas e mOOicas que utilizem frequencias radioelectricas contidas nas bandas atribuidas para 0 efeito no pIano nacional de atribuJ~ao de frequencias; c) a utiliza~iio de espectro de frequc.ncias para a realJZa9iio de ensaios tecmcos e de estudos clentificos, os quais sao analisados caso a caso e por periodos limitados. 2. A cIassific8yaO dos sistemas de radiocomun1ca90es e demais caracteristicas referidos -no mimero anterior care cern de regulamenta9iioespecifica. A~TIGO 32 (Radiocomunica~oes interditas) Sem prejuizo do disposto em legisiacao especifica. aos utilizadores de esta90es de radlOcomunica~oes e especialmente vedado: a) efectuar ou permitir radiocomunicayoes ilicitas; b) emitir sinais de alanne, emergencla ou perigo, bem como chamadas de socorro falsas ou enganosas."
+    },
+    {
+      "provision_ref": "art33",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "33",
+      "title": "",
+      "content": "(Taxas radloeleetrlcas) 1.Osselvi~osderadiocomunica90es estaosujeitos aosseguintes tipos de taxas: a) pela utiliza9iio anual do uso do especll'o de frequcncia; b) pOl'cada uma das esta90es da rede. Para a fixa~ao dos parametros para 0 calculo dos montanles das taxas a que se refere a alinea (I) do mlmero anterior, sac tidos em conta a fun~ao do servi~o, parametros espectrais de coberlura e de utiliza~iio, entre outros parametres. As taxas sa 0 reduzldas q unndo aphcndas a licen~ns de radiocomunica~oes emitidas em circunstancias especiais. 4, Os montantes e periodicldade de liquida~ao das taxas previstas nos numeros anteriores, bem como as perccntagens de reduyOes a que se referem, sac fixados pOl'Resolll~iio do INCM, com base nos principios gerais aprovados pelo Governo. ARl'lGO34 (Instalayao de estayoes de radiocomulllca~ocs) A instala~i'io de estayoes de radiocomunic!l90eS c respectivos acessorios, designadamente a ntenas, em p redios rUsticos ou urbanos, carece do consentimento dos respectivos proprietarios, nos termos da lei. 0 d isposto no n umero anterior n ao dispensa q uaisquer outros actos de Jicenclamento ou autorizayao previstos na lei, designadamente os da compeh~ncia ~os orgaos autarquicos. Sem prejuizo de outras disposi~oes Iegais aplicaveis, 0 proprietario ou detentor de uma esta9ao de radlocomunica90es e respectivos acessorios, designadamente antenas, e lesponslivel pelos danos que causal' a terceiros. Para efeltos da presente Lei, presume-se a utiliza~ilo de meios d e radiocomunica~oes sempre que e xlstam antenas exteriores, sem p rejulzo do d isposto na alfnea a) do nOIdo artlgo 4 da presente Lei. ARllGO 35 (Partilha de Jnfra-estruturas de radiocomunlcayoes) 1. Os operadores com posi~ao significativa devem, sempre que tecmcamente posslvel, permitir 0 acesso as suas torres e outras infi'a-estruturas, incluindo estruturas de suporte, cabos, antenas e edificios, nos termos das disposir;oes sobre a partilha de infra-estruturas preconizadas nos artigos 44 e 45 da presente Lei. 2. Os outros d etentores de ]jcen~as de l'adiocomunica~oes podem celebrar acordos de partilha de infra-estruturas existentes ou a instalar para as radiocomumcarroes."
+    },
+    {
+      "provision_ref": "art36",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "36",
+      "title": "",
+      "content": "(Esta~6es de eomprova~Ao tceniea das emiss~es) No cumprimento das suas fun~()es de controlo e gestao do espectro de frequenclas, 0 INCM instala e opera urn sistema nacional de eSla90es de comprova9ao t ecnica 'das e mis,soes radioetectricas, composto de estacroes fixas, m6veis e porlllteis. 2. As funcr3esdestas estaryoessac estabelecidas em regulamentacrao especifica."
+    },
+    {
+      "provision_ref": "art37",
+      "chapter": "Capitulo IV - Radiocomunicayoes",
+      "section": "37",
+      "title": "",
+      "content": "(Fiscallza~Ao radloelectrica) I. Compere ao rNCM a tiscalizacraodo cumprimento do disposto no presente dlplQma atraves dos seus agentes de fiscalizacrao ou de mandatarios devidamente credenciados. 0 INCM deve proceder a vistona das redes e estacroesde radiocomunicacroes, a fim de verificar se a instalacrao e 0 funcionamento das mesmas obedecem as condi90es apIicaveis. As medi90es efectuadas, quando devidamente registadas e identificadas, constituem elementos de prova para determina9i1o das condiryoesde utiliza9ao do espectro de frequencias pelas redes e esta90es de radiocomunica90es."
+    },
+    {
+      "provision_ref": "art40",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "40",
+      "title": "",
+      "content": "(Projectos do servl~o de acesso universal) I. 0 INCM concebe projectos concretos do serviyo de acesso universal, pelo menos, de dOls em dais anos, tendo em conta os seguintes pressupostos: a) a instaJaryaode sistemas de telecomunicllyoes em are.lls geogr3ficas em que a sua opera~ilo nao seja economicamente vlllvel, a tim de atingir urn nivel maioI' de penetra~ao na presta~ao de serviryos de telecomunicayoes para todas as comunidades rurais: b) 0 acesso publico aos serviryosde telecomunicaryoes em todo 0 territono nacional atraves de telecentros e outros modos de ncesso; c) os projectos para tornar 0 acesso aos servl90s de telecomunicacroes disponivel aos utentes portadores de deficicncias fisicas ou outras ne.cessidades especiais; f{) a criayaode condi90es para aformacrao de pessoas para garantirem a manutenryao do equipamento e a infra-estrutura de tais projectos. 2.0 INCM concede os projectos do serviyo de acesso universal atraves de concurso pubhco 0 qual e atribuido d e forma n ao discriminat6ria. Os subsidios para os projectos do servicrode acesso universal sac pagos pelo Fundo de Serviyo Universal. Para efeitos de concepyao de projectos nos termos previstos non°1,0 INCMpodesolicitar a apresentarraodepropostas,realizar consultas e aceitar Ideias das partes interessadas, as quais devem ser tamadas em considerar;:ao na concepcrao de projectos para 0 servi90 de acesso universal."
+    },
+    {
+      "provision_ref": "art41",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "41",
+      "title": "",
+      "content": "(Fundo'do servi~o de. ac:esso universal) I. E eriado 0 Fundo do S ervi~o de Aeesso Universal. c ujo objeetivo tinieo eo financiamento dos custos liquidbs inerentes a prestat;80 de servi~os no ambito da obrigatoriedade de presta~ao do serviyo de acesso universal e da oferta de tarifas espel:iais para detenninadas categorias de utentes, com 0 objectivo de garantir a acessibilidade ao serviyo. As regras de funcionamento do Fundo do Servi~o de Acesso Universal sao estabelecidas em regulamentay80 especifica. As entidades licenciadas e registadas para a opera<;ao e presta~ao de servi<;os p ublicos de t elecomunicar;:oes devem contribuir para 0 Fundo do Serviyo de Acesso Universal. CAPITULOVI Acesso e interl1gayao"
+    },
+    {
+      "provision_ref": "art42",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "42",
+      "title": "",
+      "content": "(Prindpios de interJiga~o) I. as operadores de redes au prestadores de serviyos publicos de telecomunicac;oes tern 0 direito de se interligar entre si. 2.Ainterligac;aodevesergarantida atraves deacordos negociais em que as partes actuem de boa fe, para permitir que a sua rede de telecomunicac;oes se interligue com a cede de telecomunicar;:oes de outro operador publico de telecornunicatyoes,em qualquer ponto tecnicamente viavel, segundo e specificado na sua Iicenc;a de telecomunicayoes. 3.as operadorescomposiyiiosignificativasaoobrigadosa providenciar a mterliga<;iioa outros operadores de redes e serviyos de telecomunicar;:oes-deuso publico. as operadores com posiCao significativa devem submeter Ii aprovat;ao do INCM urna pr0'p0sta de referencia de interligay80, nos termos estabelecidos em regulamentar;:ao especifica. as conteudos minimos. da proposta de referencia de interligaciio d evem ser determinados em c onformidade com a regularnentar;:ao especifica. as termos e condir;:oesbem como as tarifas para a interligac;ao oferecidas aos diferentes tipos de operadores de rede ou prestadores de se~ittos de telecomunieac;oespodem ser diferentes se as mesmas forem objectivamente justificadas. A proposta de referencia de interligac;ao estabelece urna lista completa de servic;os de interligat;ao padriio e as facilidades de teJecomunicatyoes essenciais a serem oferecidas pelos operadores com posic;iio significativa, nomeadamente as tarifas aplicaveis, os termos e condic;oes para 0 contrato de interligattao, hem como quaisquer outros termos e condic;oes aplicaveis. a operador com posityaosignificativa deve permitir a outros operadores decedesouprestadoresdeservic;osdetelecomunicattoes o acesso e a interligac;ao a sua rede publica de uma forma nao discriminat6ria. 9. Todos os operadores de rede ou prestadores de serviyos de telecomunicacroes podem encaminhar qualquer disputa de interligayao ao INCM para mediat;ao, sem preju[zo de recurso a junsdicrao cQmpetente. 10. as regimes de a cesso e interligayao sao fixados em regulame1!tsttao especifica."
+    },
+    {
+      "provision_ref": "art43",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "43",
+      "title": "",
+      "content": "(Contratos de ac:esso e interliga~ao) I. 0 acesso e interligac;ao devem reger-se por urn contrato de interligac;ao celebrado entre as partes. 2. Os contratos de interligar;ao envolvendo operadores com urna posittao signifieativa sac publicados no Boletim da Republica."
+    },
+    {
+      "provision_ref": "art44",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "44",
+      "title": "",
+      "content": "(Partilha de infra~estruturag-na jnterliga~o) 1. As entidades licenciadas para 0 estabeJ~cimento, gestio e exploracrao de redes publicas de telecomunicacoes e gatantido: ,a) 0 direito d.erequererem, nos terrnos da lei'geral, a expropriacrao e a constituicrao de servidoes administrativas indispensaveis a instalat;ao, proteCtt30 e conservayiio das respectivas infra-estruturas; b) 0 direito de acesso ao dominio publico, e~ condir;:oes de iguaidade para instalacrao e conservayao das respectivas infra-estruturas. 2. Sempre que, por razQes.relacionadas com a protecyao doambiente, do patrim6nio cultural, do ordenamento do territ6rio e da defesa da paisagem urbana e rural, nao seja permitida, numa situar;:iioconcreta, a instala~o de novas infra-estruturas, e garantido o acesso as condutas, postes e o.utras instalst;oesja existentes. em termos e median~e condic;oes de remunerayao a acordar entre as partes. a INCM garante que as condic;Oese os custos relativos ao acesso as infra-estruturas sejam razoaveis, nao discriminat6rios e distribuidos equitativamente pelos ope(adores de redes e prestadores de servic;os de telecomunicac;oes que utilizem postes, vias, condutas, instalat;oes, servidoes e direitos de passagem. as operadores com posiyiio significativa devem, mediante solicitar;ao, providenciar 0 acesso a sua rede de telecomunicac;oes e facilidades de telecomunicac;oes com base em termos justo~, transparentes, nao discrirninat6rios e razoaveis, a qualquer operador ou prestador de servic;o de telecomunicat;oes de us~ publico."
+    },
+    {
+      "provision_ref": "art45",
+      "chapter": "Capitulo V - UOIversalidade de servi~os",
+      "section": "45",
+      "title": "",
+      "content": "(Acesso a torres e a facilidades subterraneas) I. Qualquer operador de rede de telecomunicatyoes de uso publico pode, desde que seja tecnicamc:nte possivel e mediante acordo, providenciar 0 acesso as suas torres de telecomunica~oes locais e facilidades subterraneas a outros operadores. 2. as operadores com posi~ao significativa devem providenciar este acesso numa base justa, transparente, nao discriminatoria e razoavel. -3. No processo de pianificac;iio da presta~ao de servi.ttos de telecom.unieac;oes no futuro, ps operadores com posi~iio significativa, devem cooperar com us outros operadores de redes de telecomqnicayoes com vista a partilhar as instalac;oes, facilidades subterraneas elegiveis e outros meios."
+    },
+    {
+      "provision_ref": "art46",
+      "chapter": "Capitulo VI - I Numefa~ao e tarifa s",
+      "section": "46",
+      "title": "",
+      "content": "(Piano nacional de numera~ao) 1. a INCM estabelece e gere 0 pIano nacional de numerat;iio para a distribuic;ao de mimeros entre os operadores de redes e prestadores dos serviyos de telecomunica~oes. a INCM pode realoear e red'istribuir os c6dlgos de acesso as redes e numeros especiais, quando necessario para a implementac;ao e adrninistra~ao do pIano nacional de numera~iio. A alocac;iio e distribuiyao de mimeros e realizada de modo proporcional,transparente, nao discriminat6rio."
+    },
+    {
+      "provision_ref": "art47",
+      "chapter": "Capitulo VI - I Numefa~ao e tarifa s",
+      "section": "47",
+      "title": "",
+      "content": "(Principlos tarifarios e procedlmentos) 1.As tariCastixadas petas operadores e prestadores de servi~os publicos de telecomunica~5essio livres, desde que estejam de acordo com a presente Lei, devendo ser justas, razoaveis e nao discriminat6rias. 2. Os operadores e prestadores quando prestem servi~os no ambito do servi90 de acesso universal de telecomunicayoes nao podem oferecer serviyos sem que as respectivas tarifas tenham sido submetidas ao INCM para efeitos de analise e recomendaci\\o ao Govemo para aprovacao, de acordo com 0 disposto na presente Lei. As tarifas devem ser fixadas de acordo com os principios gerais que regem a fixaCao de tarifas, estabelecidas pelo INCM. 4. As tarifas referidas no numero anterior devem ser registadas e nao podem sofrer qualquer altera9ao ou revisao sem aprovacao das mesmas. regime de tarifas do serviyo de aces so universaJ de teJecomunica90es e objecto de regulamenta9ao especiflca. As tarifas fixadas pelos operadores e prestadores de scrvi~os de telecomunica90es d evem ser do conhecimento publico e pubJicadas nos 6rgaos de informaC80 de maior circula92o. ARTIOO 48 (Estudos de custos e procedimentos contabUfsticos) INCM pode exigir aos operadores com posiyao significativa a realiza9ao de estudos de custos e procedimentos contabiUsticos, com 0 obj(fctivo de estabelecer as bases para 0 calculo de tarifas. 0 INCM pode exigir a todos os operadores pubJicos de servi~os de telecomunica~oes a adopyao de procedimentos contabilisticos separados para cada um dos seus servicos publicos de telecomunica90es,cujos requisitos sac especificados em regulamenta9ao especifica."
+    },
+    {
+      "provision_ref": "art50",
+      "chapter": "Capitulo VIII - Qualidade do servi~o e protec9io do consumidor",
+      "section": "50",
+      "title": "",
+      "content": "(Direttos dos eonsumJdores) 1. Sem prejuizo dos direitos que advSm das obrigayoes referidas no amgo seguinte, todos os consumidores tSm 0 direito de utilizar os servicos de telecomunicafj)i:iesde uso publico com a qualidade de servico exigida, desde que sejam observadas as disposiyoes legais e regulamentares aplicaveis. 2. A aprovacao dos regulamentos dos serviyos de telecomunica90eS p restados nos t ermos do se rvi90 de acesso universal e precedida da audifj)aodaBorganizacoes representativas dos consumidores, como medida de protecll1aodos direitos dos utilizadores."
+    },
+    {
+      "provision_ref": "art51",
+      "chapter": "Capitulo VIII - Qualidade do servi~o e protec9io do consumidor",
+      "section": "51",
+      "title": "",
+      "content": "(Obriga~(les dos operadores e prestadores de servi~os de telecomunica~(les) Cada operador e prestadorde serviyostemde tomarpublico a todos os utentes informayoes adequadas e actualizadas sobre os tennos e condifj)oespadlio p~ra prestayao de servifj)osque sao parte intcgrante do contrato a ser c~lebrado. Os contratos de presta9ao de servi~os de telecomunicft90eS de uso publico devem conter, entre outras condi90es, as seguintes: a) prazo para ligaylo inicial e entrada em funcionamentoj b) durayao do contrato para cada um dos servi90Sj c) tipos de servicos e de manuten9ao disponibilizadosi d) custos adicionais com a manuten9aoi e) regime de compensayao ou reembolsos de valores pagos em caso de incumprimento do contrato; j} oferta do serviyo pre-pago p~los operadores de telefonia fixa; g) procedirnentos para as reclamayoes com vista Iiresolu9iio de litfgios junto Ii autoridade reguladora. 3. A factura~ao correspondente Ii utjJj~!o dos serviyos de telecomunicayoes prestados em termos de serviyo universal deve ser d etalhada sempre que solicitada p elas consumidores, nos termos a definir nos respectivos regulamentos de explora9ao. ARTIGOS2 (DiCerendos entre operadores, prestadores de servl~os e comsumidores) I. Cada operador ou prestador de servi~os de telecomunicayOes deve estabelecer um mecanismopara tratar asreclama~oes dos comsumidores e deve p ublicar esses m ecanismos nos termos definidospelo INCM,devendoprovidenciar,adtulogratuito, uma eXpliCay80 'dessesprocedimentosa qualquerpessoaqueossalicite. 2. 0 INCM pode instruir qualquer operador ou prestador de servi90s de telecomunica~oespara rever os seus mecanismosde tratamentodas reclama90ese exigir a Sua modifica~ao. QuaJquer diferendo que surja entre um ctiente e um operador deve, em principio, ser resolvido por acordo entre as partes. Nao havendo consenso, e resolvido nos tennos estipulados no contrato. S. Qualquer diferendo entre operadores, prestadores de servi90 s de telecomunica90esecomsumidores pade, mediante acordo entr e as partes, ser submetido ao INCM para a arbltragem, quando o s mecanismos do operadar licenciado tiverem sido esgotados se m que 0 diferendo tenha sido resolvido. 6.Se as partes nao acordarem em submeter 0 diferendo ao INCM para efeitos de arbitragem, 0 diferendo pode ser submetido por qualquer das partes a um tribunal competente. 7.0 JNCM deve estabelecer os procedimentos suplementares a serem seguidos na solu9ao de diferendos. em regulament8yi\\0 especifica."
+    },
+    {
+      "provision_ref": "art53",
+      "chapter": "Capitulo IX - Defesa da concorrencia",
+      "section": "53",
+      "title": "",
+      "content": "(Principlos de concorrencia) 1. As entidades licenciadas e registadas nlio devem praticar quaisquer actos com 0 objectivo de promover uma concorrencia desleal. 2. 0 procedimenta e as condi90es de determinafj)liodos operadores com posi9i\\0 s igni.ficatlva devem s er objecto de regulamento. 3. Para determinar se um operador detem uma posi~iio 2. Aos agentes a que.~e refere 9 numerQ anterior sac atribuidos significativa, 0INCM deve analisar0respectivomercado, devendo cartoes de identifica~ao cujo modelo e condi~Oessao estabeleciaos os resultados da amilise serem publicados. 4. A decisao do INCM sobre a designa~ao de um operador com posi'rao significativa no respectivo merca.do deve ser aplicada imediatamente."
+    },
+    {
+      "provision_ref": "art54",
+      "chapter": "Capitulo IX - Defesa da concorrencia",
+      "section": "54",
+      "title": "",
+      "content": "(Concorrencia deslea) N enbum operador de redes 0 u prestador de servi'ros d e telecomunicaqoes deve assinar acordos, estabelecer entendimentos ou realizar qualquer pratiea concertada com outras entidades, com o objectivo de restringir ou distorcer a competit;ao no mercado. Sao proibidas quaisquer altera'roes na estrutura do mercado que resultem de opera<;oes de fusao, aquisi<;ao de capital e outras, e que tenham como obJectivo ou efeito Jimitar a concorrencia no mercado das teJecomunica<;oes. 0 operador c om postyao si gnificativa no m ercado d as telecomunicafi:oes nao pode abusar da sua posifi:ao, excluindo au limitando mjustamente a competi<;ao no mercado. Quaisquer acordos que resultem de pniticas anti -concorrenciaiss30suspensos,declaradosnulose denenhurn efeito."
+    },
+    {
+      "provision_ref": "art55",
+      "chapter": "Capitulo IX - Defesa da concorrencia",
+      "section": "55",
+      "title": "",
+      "content": "(Operadores com posi~io significativa) 1. Considera-se que um operador de teJecomunica<;oes de uso publico configura urn operador com posifi:ao significativa se: a) constJtui urn inonop61io dejure; b) detem uma quota de mercado igual ou superior Ii 25% no respectivo mercado, seja este de telecomunica<;Oes ou geografico. 2. Umoperadordetelecomunicayoesdeusopublico, com tima quota de mercado mferior a 25% no respectivo mercado, pode ser considerado operador com posi'rao significativa se, individualmente ou conjuntamente com u ma empresa afiliada, detiver urn poderio no mercado que 'he pem1ite agir de uma forma substancialmente independente em reJa'r3o aos seus competidores e consurnidores, devido: (I) a sua capacidade de influenciar 0 respectivo mercado; b) a dimensao da sua quota e volume de.neg6cios em rela~ao ao volume total de neg6cios realizados no respectivo mercado, seja relativamente ~larea de telecomunica~Oes ou Ii area geografica de intluencia; c ) ao grau de intluencia que exerce sobre 0 acesso dos utiHzadores finais; d) ao acesso a tecursos financeiros e a sua experiencia na oferta de servifos ao respectivo mercado. 3. Um operador de telecomunica~oes de uso publico deve ser considerado operadQt com posi~ao significativa noutro mercado estritamente ligado se as liga<;oes entre os dois mere ados forem tais que permitam ao operador de telecomunica'roes de uso pubhco, detentor de uma posi~iio slgnificativa num dos mel cados, influenciar o outro mercado. ."
+    },
+    {
+      "provision_ref": "art56",
+      "chapter": "Capitulo IX - Defesa da concorrencia",
+      "section": "56",
+      "title": "",
+      "content": "(Nomea~ao de agentes de fiscaliza~ao) 1.0 lNCM deve nomear agentes para realizarem as tarefas de fiscaJizar;ao,osquaisnoexerdcio dassunsfunr;oessaoequiparados a agentes de autondade. pelo lNCM. 3. As regras pertinente~ Ii nomea~o, qualificafoes e conduta dos agentes de fiscaliZl'yaC).~aoelitabelecidas em r~gulamentafao especifica."
+    },
+    {
+      "provision_ref": "art57",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "57",
+      "title": "",
+      "content": ". (Interferencia prejudicial) 1. Todo aquele que usar qualquer equipamento de telecomunica<;oes com 0 proposito de criar interfetencia a qualquer comunica~iio dos utentes autorizados a usar frequencias radioelectricas, sera punido com a pena de cineo mil milbOes a dez mil milhOes de meticais. 2.Apersistencia na interferencia apas notificafiio pelo lNCM, ao infractor ser-lhe-a aplicada a pena maxima de multa prevista no numero anterior."
+    },
+    {
+      "provision_ref": "art58",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "58",
+      "title": "",
+      "content": "(Uso indevido de servl~o de telecomunica~6es) Sera punido com pena de sete mil milhoes de meticais, se pena mais grave nao couber, todo aquele que, sem licen<;a para tal, estabelccer uma rede de teJecomunicafao ou prestar urn servi~o de telecomunica'riio."
+    },
+    {
+      "provision_ref": "art59",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "59",
+      "title": "",
+      "content": "(Recusa de prestacio de jnforma~ao) Comete crime de desobedienciaquaJiticadato\"do aquele que se recusar a foroecer informa~oes sobre custos e procedi1J1entos contabilisticos, informa<;oes sobre niveis de desempenho e niveis de venda, bem como .apresentar documentos, registos ou qualquer informa'rao exigidos pelo )NCM no exercicio das suas funfoes de fiscaliza<;30. A destruifiio ou altera~iio de qualquer documento que tenba informa~oes de natureza uti! ou impedimento de qualquer investiga~iio sobre a alegada transgressao, constitui crime de dano ou de falsifica'riio de documentos e sera punido nos termos da lei penal geral. Comete crime de falsida~e e punido nos terrnos da lei penal geral aquele que fomecer infonna~Oes faJsas que induzam em erro 0 lNCM."
+    },
+    {
+      "provision_ref": "art60",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "60",
+      "title": "",
+      "content": "(O~stru~io da informa~ao) Comete crime de obstru'rao de informa<;ao todo aquele que modificar, enviando a traves do sistema de informa~iio, u ma mensagem ofensiva ou interferir, falseando 0 conteudo da mesn1a, com 0 intuito de provocar perturba'roes, e sera punido com pena de prisao de seis meses a dois anos e multa correspondente."
+    },
+    {
+      "provision_ref": "art61",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "61",
+      "title": "",
+      "content": "(Uso fraudelento do sistema de telecomunica~oes) A pena de do is a oito aoos de prisao maior e multa de dais mil nulhoes a quatro mil milhOes de meticais, sera apticada a todo aquele que fizer usa fraudulento do sistema de telecomuni-ca'roes, com a inten~ao de evitar 0 cumprimento das suasobriga~oes legals, obtlver frauduJentamente urn servifo de le]ecomunica~oes ou se tiver 0 seu controlo. AHIIGo62 (Impcdillll'lIlIIao acesso e intcrllga~iio) Todo aquele que, sendo operlldor de uma rede de telecomunica~Oes, dificultar 0 acesso e s interligs9Ao da sua rede ou a rccusa ilegal do operador com posi~ao significativa no mercado em fomecer urna fact!idade essencial, sera punido com pena de tres mil milhOes a seis mt! milhOes lie meticais."
+    },
+    {
+      "provision_ref": "art63",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "63",
+      "title": "",
+      "content": "(Uso de equlpamcnto terminal nAoautorlzado) o uso de equipamento terminal nAo8utorizado sera punido com pena de prisi\\o de tres meses a urn ano e multa correspondente."
+    },
+    {
+      "provision_ref": "art64",
+      "chapter": "Capitulo X - Regime sancionat6rio",
+      "section": "64",
+      "title": "",
+      "content": "(Intcrcep~iio negal das contunica~acs) Todo aque!e que interceder as comunica~oessem que para tal esteja autorizado pelas entidades cornpetentes comete a infrac~ao de intercep-;ao Ilegal das cornunica-;oes e sera punido com pena de prisao e multa correspondente. ARllGO65 (Penas acess6rias) Todo aquele que for,condenado pe!as infrac90es previstas neste capitulo aplicar-se-a, cumulativamente as seguintes peoas acess6rias; C/)el1cerramento definitivo do estabelecimcnto; b) cancelamento do registo ou da licen-;a. AlmGo66 (Instaura~io de processo) I. Compete a 0 Director-geral do INCM, se mpre que t iver conhecimento de i nfrac-;ao prevista n esta Lei, determinar a instaura.,ao do competente processo crime e remete-Io Iientidade competente. 2. As penas de multa previstas l1apresente Lei s1\\oaplicadas peJo Director-Oeral do INCM, mediante processo de transgressoes e obedece ao formahsmo estabelecido na lei geral."
+    },
+    {
+      "provision_ref": "art71",
+      "chapter": "Capitulo XIII - Disposi~oes finais e transit6rias",
+      "section": "71",
+      "title": "",
+      "content": "(Salvaguarda do!! ~ircitos adquiridos) I. a regime legal aprovado no desenvolvimento da Lei nil 14/ /99, de I de Novembro, hem como os titulos de licenciamento e registos para 0 exercicio de IIctividades outorgadas ao abrigo dos regimes legais e regulamentares aprovados no ambito das referidas leis, rnantem-se em vigor, sem prejuizo das alterayi5esque decol1\"11m da presente Lei ouque venhama ser determinadaspelasrespectivas regulamentayoes especificl1s. 2. as aperadores de redes e prestadores de serviQos de telecomunica-;oes e de radiocomunica~oes, portadores de titulos de licenclamento c registos, devem I1ctuahz81'0 conteudo d as respectivas licelwas e registos no periodo de 9 meses, 11cantar dl1 data da entrl1daem vigor da presente lei."
+    },
+    {
+      "provision_ref": "art72",
+      "chapter": "Capitulo XIII - Disposi~oes finais e transit6rias",
+      "section": "72",
+      "title": "",
+      "content": "(Norma rcvogat6ria) 1. E revogada a Lei nQ 14/99, de I de Novembro. 2. as regulamentos aprovados ao abngo da Lei nO14/99, de 1 de Novembro, mantem-se em vigor na parle que nao contrl1rie a presente Lei. Aprovada peln Assembleia da Republica, 80S 22 de Abril de 2004. a Presidente da Assembleia da Republica, Eduardo Joaqllllll Ml/hJmbwc. Promulgada em 19 de Junho de 2004. Publique-se. o Presidenteda Repub,lica, JOAQUIMAI.nf:RTO Crn \"0 ANEXO Operador com posi~io significativa - Qualquer operador que. GLossARIO Acesso - Dispombllizaqao de instalaqQes, infra-estruturas e serviqos acessivels, a outras entidades licendadas ou registadas, tendo pOl'objectivo a prestaltiio de serVJ\\=osde telecomunic8ltOeS de uso publico e inelui a ligaqao de equipamento pOl'fio ou sem lio, acesso a mfl'a-estruturas fisicas. tais como edificios, condutas e mastros ou torres de antenas, acesso as redes moveis e acesso a tradw;ao numerica ou a sistemas com fun<;aoseme/hante. Consumidor -Pessoa que faz 0 uso de urn servu;o de telecomunicaqoes bem como das suas facihdades atraves do acesso a rede de telecomul1Icaqoes. C6digo de accsso as rcdes - Con Junto de caracteres numericos ou alfanumencos estabelecidos em PIanos de Numeraqao, que pelmite a identifica<;ao e vinculaqiio de fomm univoca a urn elemento de rede. Contro)o -Deten<;iio da propriedade de rnais de cinquenta pOl'cento (50%) das particlpaqoes, ou a capacidade de controlar efectivamente os neg6cios, seja pOl'JI1termedlode propriedade, contra to ou de Dutro modo. Empresa atiliada -Aquela que d hecta ou i ndirectamentc contro/a c contro/ada pOl'outra. 'Equipan\\entoterminal-Aparelholigadoouaserligado dil ecta ou indirectamente a um ponto terminal da rede de telecomunicaqoes com vista it transmissao, e missiio ou recep<;ao, tratamento de informa<;ao, JespeJlando as especJfica<;oes tecl1lcas aplOpnadas. Equipamento de radiocomunica..oes - Todo 0 eqtllpamento ou apalelho concebido ou usado para as ladiocomul1lca~oes, Equipamento de telecomunica..oes - Todo 0 aparelho usado. ou que se pretenda usar para as telecomunicaqoes, 0 qual faqa parte, esteja ligado ou compreenda uma rede de telecomunica<;oes e que mclUiequipamento de radlocomunicaqoes. Esta..ao de radio - Conjunto de urn ou \"anos emlssores ou leceptores, necess:itios para possibihJar um servi<;o de radlOcomul1ica~(ks. Facilid!1dede telccomunica..oes - Qualquel parte da mfl'8estrutura de uma rede de telecomunica~oes, inclumdo qualquer linlui, equipamento, ton e, mastro, antena, polo ou qualquer outra estrutura que se p1etenda usar em conexiio com essa mesma rede. Frequencias -Flequenclas radioelectncas consignadas it cntidade licenciada para opera~ao dos scrVI~OS,segundo os termos e condi~oes conl1das na licen~a. Fundo de servi..o universal -Fundo criado para financial' a provisao de selviqos de acesso universal e serviqo universal em Mo<;amblque,nostermosdorespectivo regulamentodeexploraqao e gestao a aprovar pelo Govemo, INCM-Jnsl1tutoNacionaldasComunica~(jes de tI.:1oqambique. InteroperabiJidade - Capacidade de funcionamentode um serviryo de telecomumcaqoes, extremo a extremo,-entre d ois equipamentos tenninais ligados Iimesma rede de teleconmnicaryOes ou Ii redes distintas. Interliga..io - Liga'rilo fi sica e 16glca das redes de telecomunica~oes utlhzadas pelo mesmo ou dtferentes operadol'es, de forma a perrnitir 0 acesso e as comunicaqoes entre os dlferentes uhlizadores dos servlqos plestados. Licen..a de radiocomunica..oes - Autoriza«:ao emitida pelo INCM nos telmos do Regulamenfo de Radio para uso de radiofrequencias, em conexao com a operaqao da rede de telecomunicaqoes ou presta~iiQde serviyos de telecomunicayoes. Licen..a de telecomunica..Oes - Autorizaqao emitida pelo INCM aos operadol'es de redes e de servI~os de telecomunica<;oes, nos term06 da presente Lei. a titulo individual 0» ero. a~sociat;50 com' unUl ernpresa fihadJl, detem u m poderio'e-conOinico que) he permita-a gir .de forma consideravelmente independente em relary.iloaos conCOITcntcsc consumidores. Operador de telecomunicaqoes - Quafquersocledade comercial que se dedique a ~xplol'a<;ao ou gestao de uma rede publica de telecomunicaryoes, podendo tambem prestar servi<;os de telecomunicaryoes ao pubhco em gera\\. Plano nacionaJ de frequencias - PIano d e atl'ibtJi~ao e consigna<;ao de frequencias para a prestaryiio de s erviqos de radiocomunica~oes. Prestador de telecomunica..oes - Qualquer pessoa singular ou colectiva, que ofereqa serviqos de telecomunica<;oesuttlizando a rede ou infra-estrutura de telceiros. PIano nacional de numera~ao -,PIano prepal'ado e gerido pelo INCM para atriblli'rao de nllmeros de idemilicaryaorelaclonados com os serviqos de telecomunica<;oes no pais. Radiocontunica~oes - Transmissilo, emissiio ou recep<;iiode mensagens, sons, imagens visuals ou sinais usando ondas electromagneticas, que sao propagadas no espa<;o sem 0 usa de gUlaartificial e com frequenclas mferiores a 3.000 GHz, excluindo emissoes radlOfonicas. Radiodifusao - Radiocomunica~a() cUJasenllssoes se destinam a serem recebidas dJrectamente pelo publico em geral.. Rede de telccomunica..oes - C6njunto de m cios fiSICOS, denominados mfra-estrutllras ou campos electromagneticos que suportam a transmissiio, recepqiio e emlssao de sJl1ais. Rede de telecomunica..oesm6veis - Rede que suporta 0 sefV1~O de teleeomunicaqoes moveis, Rede Privativa de telecomunica~oes-Sistema para prestaqao de serviqos de tclecomunicaryoes a uma pes~oa ou ent/dade, para uso exclusivo, 0 qual nao esta i nterhgado it I ede publica de telecomumcaqoes. Rede publica de tclecomunica~oes - Sistema de telecomunicaryoes completamente interligado e tntegrado, constituido pOl'varios melOSde transmissao e comutaryao,uulizados pala fomccerservI~os de telecomunicaqoesaopublico emgera\\. Registo de telecomunicaryoes - Autorizaryao emitida pelo INCM aos prestadores de servirrosde telecomunicayoes, nos termos da presente Lei. Servi~o de telecomunicaryoes fixo - Serviryo de telecomunica<;oesem que 0 acesso do assinante e efectuado atraves de urn sistema fixo. Servi..o de teJefone fixo - Orerta ao p ubhcp em geral do transporte directo da voz, em tempo real, em locais fixos, permitindo a qualquer uulizador, atraves de equipamento ligado a urn ponto terminal da rede, comunicar com Dutro ponto terminal. Servirro de acesso universal - ConJunto de obrigaqoes especificas inerentes it penetrayao de servlqos de telecomunicaqoes bcisicas de usa publico, inclUido os serviqos avanqados de telecomunica~oes, a preryos acessivels, visando a satisfaryao de necessidades de c omunica~iio das comunidades rurais e das actividades econornicas e sociais no pais, atraves do Fundo de Serviqb Universal. Servi..o de telecomunica~oes moveis - Servi<;o de telecomunicaryoes ao qual 0 acesso do ciiente e efectuado utilizando a pt opagacao de ondas radioe1ectrica. Servi..o p rivativo de t elecomunica..oes. -Servlqo de telecomunicaqoes prestados a um grupo fec/1ado de utentes, 0 qual nao esta interligado com a rede publica de telecomunicatyoes. Servi-;o publico de telecomunica~oes - Serviqo fixo ou movel de telecomunica<;oes colocados a diSposiyao do publico. Tarifas - Valor aprovado pelo I NCM correspondente Ii importAnciaa ser paga por clientes,correspondentesaos serviyos de tetecomunicayoes prestados petos operadores de telecomunicayoes. Taxa aoual de telecomuoica~lSes - Valor percentual, constante da licenya de telecomunicayoes a ser pago ao INCM, proveniente da receita brota dos 0 erlldores de redes de telecomunica~oes referentes ao ana fisea r anterior. Taxas - Valor fixo ou percentulIl IIser pago ao INCM pelos operadores de redes e prestadores de servi~os de telecomunica~oes. Teleeomunica~6es-Transmissao, emissao ou I'ece~ao de sinais representando simbolos, escrita, imagens, sons ou informllyoes de qualquer natureza, pOI'flos, meios radioelectricos, opticos ou outros sistemas electromagneticos, que nAo sejam emissoes radiof6nicas. j) Cooperatlvas de c:redlto: institui~oes de credito constituidas sob fonna de sociedlldes cooperativas, cuja actividade e desenvolvida a servi~o exclusivo dos seus socios: g) Deposito: contrato pelo qual Untilentidade recebe fundos de outra, ticando com 0 dil'eito de deles dispor para os seus negocios e assumindo a responsabilidade de restituir 0 utro tanto, com ou sem juro, na prazo convencionado ou a pedido do depositante: II) Filial: pessoa colectiva relativamente Iiqual outra pessoa colectiva, designada pOl'empresa.mae, se encontra em rela~i\\o de dam/nia, considerando-se que a mial de umll tilial e igualmente filial da empreSQmae de que ambas dependem; n Inditul(!i\\l!i df!n1n(!dgf!1f!l'trnnll'lI!inl!tihlil'MCtipl'rAtiitn No data available. WIPO Lex No. MZ022"
+    }
+  ],
+  "definitions": []
+}

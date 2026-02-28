@@ -3,7 +3,8 @@
  * Mozambique Law MCP -- Census-Driven Ingestion Pipeline
  *
  * Reads data/census.json and fetches + parses every ingestable Act
- * from portaldogoverno.gov.mz (Akoma Ntoso HTML).
+ * from multiple Mozambican legal sources (ts.gov.mz, africa-laws.org,
+ * WIPO Lex, FAOLEX, Constitute Project).
  *
  * Features:
  *   - Resume support: skips Acts that already have a seed JSON file
@@ -16,8 +17,9 @@
  *   npm run ingest -- --skip-fetch    # Reuse cached HTML (re-parse only)
  *   npm run ingest -- --force         # Re-ingest even if seed exists
  *
- * Data source: portaldogoverno.gov.mz (National Council for Law Reporting)
- * Format: AKN (Akoma Ntoso) structured HTML
+ * Data sources: ts.gov.mz, africa-laws.org, wipo.int, fao.org, constituteproject.org
+ * Format: HTML / PDF (text extracted)
+ * Language: Portuguese
  * License: Government Open Data
  */
 
@@ -90,25 +92,29 @@ function parseArgs(): { limit: number | null; skipFetch: boolean; force: boolean
 
 /**
  * Convert a census entry to an ActIndexEntry for the parser.
- * Extracts AKN year/number from the identifier field.
+ * Extracts date from the title when possible.
  */
 function censusToActEntry(law: CensusLawEntry): ActIndexEntry {
-  // identifier format: "act/YEAR/NUMBER"
-  const parts = law.identifier.split('/');
-  const aknYear = parts[1] ?? '';
-  const aknNumber = parts[2] ?? '';
+  // Try to extract date from title: "Lei n.o XX/YYYY de DD de Month"
+  let issuedDate = '';
+  const dateMatch = law.title.match(/de\s+(\d{1,2})\s+de\s+(\w+)\s+de\s+(\d{4})/i);
+  if (dateMatch) {
+    // Simplified date extraction -- full parsing done in parser.ts
+    issuedDate = `${dateMatch[3]}-01-01`;
+  } else {
+    const yearMatch = law.title.match(/\/(\d{4})/);
+    if (yearMatch) issuedDate = `${yearMatch[1]}-01-01`;
+  }
 
   return {
     id: law.id,
     title: law.title,
     titleEn: law.title,
-    shortName: law.title.length > 30 ? law.title.substring(0, 27) + '...' : law.title,
+    shortName: law.title.length > 40 ? law.title.substring(0, 37) + '...' : law.title,
     status: law.status === 'in_force' ? 'in_force' : law.status === 'amended' ? 'amended' : 'repealed',
-    issuedDate: '',
-    inForceDate: '',
+    issuedDate,
+    inForceDate: issuedDate,
     url: law.url,
-    aknYear,
-    aknNumber,
   };
 }
 
@@ -119,8 +125,8 @@ async function main(): Promise<void> {
 
   console.log('Mozambique Law MCP -- Ingestion Pipeline (Census-Driven)');
   console.log('====================================================\n');
-  console.log(`  Source: portaldogoverno.gov.mz (National Council for Law Reporting)`);
-  console.log(`  Format: AKN (Akoma Ntoso) structured HTML`);
+  console.log(`  Source: ts.gov.mz, africa-laws.org, WIPO, FAOLEX (Portuguese)`);
+  console.log(`  Format: HTML / PDF-extracted text`);
   console.log(`  License: Government Open Data`);
 
   if (limit) console.log(`  --limit ${limit}`);
@@ -265,7 +271,7 @@ async function main(): Promise<void> {
   console.log(`\n${'='.repeat(70)}`);
   console.log('Ingestion Report');
   console.log('='.repeat(70));
-  console.log(`\n  Source:      portaldogoverno.gov.mz (Akoma Ntoso HTML)`);
+  console.log(`\n  Source:      ts.gov.mz, africa-laws.org, WIPO, FAOLEX (Portuguese)`);
   console.log(`  Processed:   ${processed}`);
   console.log(`  New:         ${ingested}`);
   console.log(`  Resumed:     ${skipped}`);

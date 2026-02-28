@@ -44,15 +44,15 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Mozambique Law',
-          authority: 'National Council for Law Reporting (Mozambique Law)',
-          url: 'http://portaldogoverno.gov.mz',
+          name: 'Mozambique Law (MZ)',
+          authority: 'Tribunal Supremo da Republica de Mocambique, africa-laws.org, WIPO Lex',
+          url: 'https://www.ts.gov.mz/legislacao/',
           license: 'Government Open Data',
           coverage:
-            'All Acts of Parliament (revised edition), subsidiary legislation, ' +
-            'the Constitution of Mozambique (2010), Mozambique Gazette notices, and selected case law ' +
-            'from superior courts including the Supreme Court, Court of Appeal, and High Court',
-          languages: ['en', 'sw'],
+            'Curated collection of Mozambican legislation including the Constitution (2004, revised 2018), ' +
+            'Labour Law, Penal Code, Commercial Code, Civil Code, Family Law, Telecommunications Law, ' +
+            'Investment Law, Environmental Law, and other key statutes (Portuguese)',
+          languages: ['pt'],
         },
       ],
       database: {

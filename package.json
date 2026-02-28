@@ -2,7 +2,7 @@
   "name": "@ansvar/mozambican-law-mcp",
   "version": "1.0.0",
   "mcpName": "eu.ansvar/mozambican-law-mcp",
-  "description": "Mozambique law database -- legislation from portaldogoverno.gov.mz with full-text search, definitions, and EU cross-references",
+  "description": "Mozambique law database -- 116 laws, 2553 provisions from ts.gov.mz, africa-laws.org, WIPO Lex with full-text search",
   "author": "Ansvar Systems <hello@ansvar.eu>",
   "license": "Apache-2.0",
   "repository": {
@@ -54,15 +54,16 @@
     "check-updates": "node --import tsx scripts/check-updates.ts"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0",
     "@ansvar/mcp-sqlite": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "pdf-parse": "^1.1.1",
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
     "@types/node": "^22.0.0",
     "@vercel/node": "^5.0.0",
     "better-sqlite3": "^11.0.0",
-    "@types/better-sqlite3": "^7.6.0",
     "prettier": "^3.4.0",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",

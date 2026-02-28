@@ -45,11 +45,11 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
     },
     data_source: {
       name: 'Mozambique Law',
-      authority: 'National Council for Law Reporting',
-      url: 'http://portaldogoverno.gov.mz',
+      authority: 'Tribunal Supremo da Republica de Mocambique',
+      url: 'https://www.ts.gov.mz/legislacao/',
       license: 'Government Open Data',
-      jurisdiction: 'KE',
-      languages: ['en', 'sw'],
+      jurisdiction: 'MZ',
+      languages: ['pt'],
     },
   };
 }

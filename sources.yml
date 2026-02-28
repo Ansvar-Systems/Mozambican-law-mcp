@@ -4,29 +4,50 @@ mcp_name: "Mozambique Law MCP"
 jurisdiction: "MZ"
 
 sources:
-  - name: "Mozambique Official Legal Database"
+  - name: "Tribunal Supremo da Republica de Mocambique"
     authority: "Government of Mozambique"
-    official_portal: "https://portaldogoverno.gov.mz"
-    canonical_identifier: "TBD"
-    retrieval_method: "HTML"
+    official_portal: "https://www.ts.gov.mz/legislacao/"
+    canonical_identifier: "ts.gov.mz"
+    retrieval_method: "PDF (text extracted)"
     api_documentation: "N/A"
-    update_frequency: "TBD"
-    last_ingested: "PENDING_FIRST_INGEST"
+    update_frequency: "Periodic manual re-ingestion"
+    last_ingested: "2026-02-28"
     license_or_terms:
-      type: "Government Publication"
-      url: "https://portaldogoverno.gov.mz"
-      summary: "Official government legal database; legislation is public domain as government publication"
+      type: "Government Open Data"
+      url: "https://www.ts.gov.mz/"
+      summary: "Official government legal publication; legislation is public domain"
     coverage:
-      scope: "TBD -- update after census"
-      limitations: "TBD -- update after census"
+      scope: "116 laws enumerated, 111 ingested, 2553 provisions extracted from 23 acts with full text"
+      limitations: "PDF-only sources have OCR quality limitations; some government portals intermittently unavailable"
+    languages:
+      - "pt"
+
+  - name: "Africa Laws Database"
+    authority: "africa-laws.org"
+    official_portal: "https://www.africa-laws.org/Mozambique.php"
+    retrieval_method: "PDF download"
+    last_ingested: "2026-02-28"
+    license_or_terms:
+      type: "Open Access"
+      url: "https://www.africa-laws.org/"
+      summary: "Free access legal database for African countries"
+    coverage:
+      scope: "Civil Code, Commercial Code, Labour Law, Family Law, IP laws, Tax laws, Consumer Protection"
+    languages:
+      - "pt"
+      - "en"
+
+  - name: "Constitute Project"
+    authority: "constituteproject.org"
+    official_portal: "https://www.constituteproject.org/constitution/Mozambique_2007"
+    retrieval_method: "HTML"
+    last_ingested: "2026-02-28"
+    coverage:
+      scope: "Constitution of the Republic of Mozambique (2004, revised 2018) -- 306 articles"
     languages:
       - "en"
 
 data_freshness:
   automated_checks: false
-  check_frequency: "TBD"
-  last_verified: "2026-02-27"
-
-# Notes:
-# - Source URL: portaldogoverno.gov.mz
-# - Update this file after completing census and first ingestion
+  check_frequency: "Monthly"
+  last_verified: "2026-02-28"

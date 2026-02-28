@@ -449,8 +449,8 @@ function buildDatabase(): void {
     insertMeta.run('schema_version', '2');
     insertMeta.run('built_at', new Date().toISOString());
     insertMeta.run('builder', 'build-db.ts');
-    insertMeta.run('jurisdiction', 'KE');
-    insertMeta.run('source', 'portaldogoverno.gov.mz');
+    insertMeta.run('jurisdiction', 'MZ');
+    insertMeta.run('source', 'ts.gov.mz, africa-laws.org, wipo.int, fao.org');
     insertMeta.run('licence', 'Government Open Data');
   });
   writeMeta();

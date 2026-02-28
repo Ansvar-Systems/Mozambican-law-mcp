@@ -2,6 +2,104 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "Mozambique Law MCP",
-  "description": "Golden contract tests for the Mozambique Law MCP -- add tests after first ingestion",
-  "tests": []
+  "description": "Golden contract tests for the Mozambique Law MCP -- verifies core tools against known provisions",
+  "tests": [
+    {
+      "id": "GT-001",
+      "category": "search",
+      "description": "Search for 'trabalho' returns Labour Law provisions",
+      "tool": "search_legislation",
+      "input": { "query": "trabalho" },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "GT-002",
+      "category": "get_provision",
+      "description": "Get Article 1 of the Constitution returns Republic definition",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "constituicao-da-republica-de-mocambique-2004-revista-em-2018",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["Republic", "Mozambique"]
+      }
+    },
+    {
+      "id": "GT-003",
+      "category": "get_provision",
+      "description": "Get Article 1 of the Labour Law 2023 describes the law's purpose",
+      "tool": "get_provision",
+      "input": {
+        "document_id": "lei-n-o-13-2023-de-25-de-agosto-nova-lei-do-trabalho",
+        "article": "1"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["regime jur"]
+      }
+    },
+    {
+      "id": "GT-004",
+      "category": "about",
+      "description": "About tool handles missing context gracefully",
+      "tool": "about",
+      "input": {},
+      "assertions": {
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "GT-005",
+      "category": "list_sources",
+      "description": "List sources returns jurisdiction info",
+      "tool": "list_sources",
+      "input": {},
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["MZ"]
+      }
+    },
+    {
+      "id": "GT-006",
+      "category": "search",
+      "description": "Search for 'familia' returns Family Law provisions",
+      "tool": "search_legislation",
+      "input": { "query": "familia" },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "GT-007",
+      "category": "validate_citation",
+      "description": "Validate citation for Constitution Article 1",
+      "tool": "validate_citation",
+      "input": {
+        "citation": "Artigo 1, Constituicao da Republica de Mocambique"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "handles_gracefully": true
+      }
+    },
+    {
+      "id": "GT-008",
+      "category": "check_currency",
+      "description": "Check currency of the Constitution",
+      "tool": "check_currency",
+      "input": {
+        "document_id": "constituicao-da-republica-de-mocambique-2004-revista-em-2018"
+      },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["in_force"]
+      }
+    }
+  ]
 }
