@@ -32,12 +32,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Mozambique Law (portaldogoverno.gov.mz) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'Portal do Governo de Moçambique / CFJJ (cfjj.gov.mz) — Centro de Formação Jurídica e Judiciária',
+    jurisdiction: 'MZ',
     disclaimer:
-      'This data is sourced from Mozambique Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Mozambique Law portal (portaldogoverno.gov.mz).',
+      'This data is sourced from Mozambique official legal sources under Government Open Data principles. ' +
+      'The authoritative versions are in Portuguese. ' +
+      'Always verify with the official Portal do Governo (portaldogoverno.gov.mz) or CFJJ (cfjj.gov.mz).',
     freshness,
   };
 }
