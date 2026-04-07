@@ -38,12 +38,12 @@ This MCP server makes Mozambican law **searchable, cross-referenceable, and AI-r
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mozambican-law-mcp.vercel.app/mcp`
+**Endpoint:** `https://mcp.ansvar.eu/law-mz/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add mozambican-law --transport http https://mozambican-law-mcp.vercel.app/mcp` |
+| **Claude Code** | `claude mcp add mozambican-law --transport http https://mcp.ansvar.eu/law-mz/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -54,7 +54,7 @@ This MCP server makes Mozambican law **searchable, cross-referenceable, and AI-r
   "mcpServers": {
     "mozambican-law": {
       "type": "url",
-      "url": "https://mozambican-law-mcp.vercel.app/mcp"
+      "url": "https://mcp.ansvar.eu/law-mz/mcp"
     }
   }
 }
@@ -67,7 +67,7 @@ This MCP server makes Mozambican law **searchable, cross-referenceable, and AI-r
   "github.copilot.chat.mcp.servers": {
     "mozambican-law": {
       "type": "http",
-      "url": "https://mozambican-law-mcp.vercel.app/mcp"
+      "url": "https://mcp.ansvar.eu/law-mz/mcp"
     }
   }
 }
