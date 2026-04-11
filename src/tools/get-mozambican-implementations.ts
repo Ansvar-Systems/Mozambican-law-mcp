@@ -4,7 +4,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetMozambicanImplementationsInput {
   eu_document_id: string;
@@ -31,9 +31,9 @@ export async function getMozambicanImplementations(
   } catch {
     return {
       results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        ...{ note: 'EU/international references not available in this database tier' },
+      _meta: {
+        ...generateMeta(db),
+        note: 'EU/international references not available in this database tier',
       },
     };
   }
@@ -64,5 +64,5 @@ export async function getMozambicanImplementations(
   sql += ' GROUP BY ld.id, er.reference_type ORDER BY is_primary DESC, reference_count DESC';
 
   const rows = db.prepare(sql).all(...params) as MozambicanImplementationResult[];
-  return { results: rows, _metadata: generateResponseMetadata(db) };
+  return { results: rows, _meta: generateMeta(db) };
 }

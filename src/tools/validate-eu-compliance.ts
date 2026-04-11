@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse } from '../utils/metadata.js';
 
 export interface ValidateEUComplianceInput {
   document_id: string;
@@ -36,7 +36,10 @@ export async function validateEUCompliance(
         warnings: [`Document not found: "${input.document_id}"`],
         recommendations: [],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
     };
   }
 
@@ -70,7 +73,7 @@ export async function validateEUCompliance(
         warnings: ['EU/international references not available in this database tier'],
         recommendations: [],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: generateMeta(db),
     };
   }
 
@@ -84,7 +87,7 @@ export async function validateEUCompliance(
         warnings: [],
         recommendations: ['No EU/international cross-references found for this statute. This may be a purely domestic law.'],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: generateMeta(db),
     };
   }
 
@@ -125,6 +128,6 @@ export async function validateEUCompliance(
       warnings,
       recommendations,
     },
-    _metadata: generateResponseMetadata(db),
+    _meta: generateMeta(db),
   };
 }

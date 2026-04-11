@@ -417,7 +417,7 @@ export function registerTools(
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       return {
-        content: [{ type: 'text' as const, text: `Error: ${message}` }],
+        content: [{ type: 'text' as const, text: JSON.stringify({ error: message, _error_type: 'internal_error' }) }],
         isError: true,
       };
     }

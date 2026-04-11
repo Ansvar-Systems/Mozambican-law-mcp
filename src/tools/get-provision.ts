@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface GetProvisionInput {
   document_id: string;
@@ -23,6 +23,24 @@ export interface ProvisionResult {
   content: string;
   article_number?: string;
   url?: string;
+  _citation?: CitationRef;
+}
+
+function buildCitation(
+  document_id: string,
+  document_title: string,
+  provision_ref: string,
+  section: string,
+): CitationRef {
+  const isArticle = provision_ref.startsWith('art');
+  return {
+    canonical_ref: `${isArticle ? 'Article' : 'Section'} ${section}, ${document_title}`,
+    display_text: `${isArticle ? 'art' : 's'} ${section}, ${document_title}`,
+    lookup: {
+      tool: 'get_provision',
+      args: { document_id, section },
+    },
+  };
 }
 
 export async function getProvision(
@@ -33,9 +51,10 @@ export async function getProvision(
   if (!resolvedId) {
     return {
       results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        ...{ note: `No document found matching "${input.document_id}"` },
+      _meta: {
+        ...generateMeta(db),
+        note: `No document found matching "${input.document_id}"`,
+        _error_type: 'not_found',
       },
     };
   }
@@ -44,8 +63,16 @@ export async function getProvision(
     'SELECT id, title, url FROM legal_documents WHERE id = ?'
   ).get(resolvedId) as { id: string; title: string; url: string | null } | undefined;
   if (!docRow) {
-    return { results: [], _metadata: generateResponseMetadata(db) };
+    return {
+      results: [],
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
+    };
   }
+
+  const sourceUrl = docRow.url ?? 'https://www.ts.gov.mz/legislacao';
 
   // Specific provision lookup
   const ref = input.provision_ref ?? input.section;
@@ -87,27 +114,35 @@ export async function getProvision(
     }
 
     if (provision) {
+      const provRef = String(provision.provision_ref);
+      const section = String(provision.section);
       return {
         results: [{
           document_id: resolvedId,
           document_title: docRow.title,
-          provision_ref: String(provision.provision_ref),
+          provision_ref: provRef,
           chapter: provision.chapter as string | null,
-          section: String(provision.section),
+          section,
           title: provision.title as string | null,
           content: String(provision.content),
-          article_number: String(provision.provision_ref).replace(/^(?:s|art)/, ''),
+          article_number: provRef.replace(/^(?:s|art)/, ''),
           url: docRow.url ?? undefined,
+          _citation: buildCitation(resolvedId, docRow.title, provRef, section),
         }],
-        _metadata: generateResponseMetadata(db),
+        _meta: {
+          ...generateMeta(db),
+          source_url: sourceUrl,
+        },
       };
     }
 
     return {
       results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        ...{ note: `Provision "${ref}" not found in document "${resolvedId}"` },
+      _meta: {
+        ...generateMeta(db),
+        note: `Provision "${ref}" not found in document "${resolvedId}"`,
+        _error_type: 'not_found',
+        source_url: sourceUrl,
       },
     };
   }
@@ -118,17 +153,25 @@ export async function getProvision(
   ).all(resolvedId) as Record<string, unknown>[];
 
   return {
-    results: provisions.map(p => ({
-      document_id: resolvedId,
-      document_title: docRow.title,
-      provision_ref: String(p.provision_ref),
-      chapter: p.chapter as string | null,
-      section: String(p.section),
-      title: p.title as string | null,
-      content: String(p.content),
-      article_number: String(p.provision_ref).replace(/^(?:s|art)/, ''),
-      url: docRow.url ?? undefined,
-    })),
-    _metadata: generateResponseMetadata(db),
+    results: provisions.map(p => {
+      const provRef = String(p.provision_ref);
+      const section = String(p.section);
+      return {
+        document_id: resolvedId,
+        document_title: docRow.title,
+        provision_ref: provRef,
+        chapter: p.chapter as string | null,
+        section,
+        title: p.title as string | null,
+        content: String(p.content),
+        article_number: provRef.replace(/^(?:s|art)/, ''),
+        url: docRow.url ?? undefined,
+        _citation: buildCitation(resolvedId, docRow.title, provRef, section),
+      };
+    }),
+    _meta: {
+      ...generateMeta(db),
+      source_url: sourceUrl,
+    },
   };
 }

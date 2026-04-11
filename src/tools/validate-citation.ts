@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface ValidateCitationInput {
   citation: string;
@@ -19,6 +19,7 @@ export interface ValidateCitationResult {
   provision_ref?: string;
   status?: string;
   warnings: string[];
+  _citation?: CitationRef;
 }
 
 /**
@@ -84,7 +85,10 @@ export async function validateCitationTool(
         citation: input.citation,
         warnings: ['Could not parse citation format'],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
     };
   }
 
@@ -96,7 +100,10 @@ export async function validateCitationTool(
         citation: input.citation,
         warnings: [`Document not found: "${parsed.documentRef}"`],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
     };
   }
 
@@ -128,10 +135,14 @@ export async function validateCitationTool(
           document_title: doc.title,
           warnings: [...warnings, `Provision "${parsed.sectionRef}" not found in ${doc.title}`],
         },
-        _metadata: generateResponseMetadata(db),
+        _meta: {
+          ...generateMeta(db),
+          _error_type: 'not_found',
+        },
       };
     }
 
+    const isArticle = provision.provision_ref.startsWith('art');
     return {
       results: {
         valid: true,
@@ -142,8 +153,16 @@ export async function validateCitationTool(
         provision_ref: provision.provision_ref,
         status: doc.status,
         warnings,
+        _citation: {
+          canonical_ref: `${isArticle ? 'Article' : 'Section'} ${parsed.sectionRef}, ${doc.title}`,
+          display_text: `${isArticle ? 'art' : 's'} ${parsed.sectionRef}, ${doc.title}`,
+          lookup: {
+            tool: 'get_provision',
+            args: { document_id: docId, section: parsed.sectionRef },
+          },
+        },
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: generateMeta(db),
     };
   }
 
@@ -157,6 +176,6 @@ export async function validateCitationTool(
       status: doc.status,
       warnings,
     },
-    _metadata: generateResponseMetadata(db),
+    _meta: generateMeta(db),
   };
 }
