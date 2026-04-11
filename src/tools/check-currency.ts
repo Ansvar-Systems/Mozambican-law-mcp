@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse } from '../utils/metadata.js';
 
 export interface CheckCurrencyInput {
   document_id: string;
@@ -36,7 +36,10 @@ export async function checkCurrency(
         in_force_date: null,
         warnings: [`Document not found: "${input.document_id}"`],
       },
-      _metadata: generateResponseMetadata(db),
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
     };
   }
 
@@ -68,6 +71,6 @@ export async function checkCurrency(
       in_force_date: doc.in_force_date,
       warnings,
     },
-    _metadata: generateResponseMetadata(db),
+    _meta: generateMeta(db),
   };
 }

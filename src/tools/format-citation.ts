@@ -9,6 +9,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
+import { generateMeta, type ResponseMeta } from '../utils/metadata.js';
 
 export interface FormatCitationInput {
   citation: string;
@@ -19,6 +20,7 @@ export interface FormatCitationResult {
   original: string;
   formatted: string;
   format: string;
+  _meta: ResponseMeta;
 }
 
 /**
@@ -79,5 +81,5 @@ export async function formatCitationTool(
       break;
   }
 
-  return { original: input.citation, formatted, format };
+  return { original: input.citation, formatted, format, _meta: generateMeta(db) };
 }

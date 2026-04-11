@@ -4,40 +4,51 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 
-export interface ResponseMetadata {
-  data_source: string;
-  jurisdiction: string;
+export interface CitationRef {
+  canonical_ref: string;
+  display_text: string;
+  lookup: {
+    tool: string;
+    args: Record<string, string>;
+  };
+}
+
+export interface ResponseMeta {
   disclaimer: string;
-  freshness?: string;
+  data_age?: string;
+  copyright: string;
+  source_url?: string;
   note?: string;
   query_strategy?: string;
+  _error_type?: string;
 }
 
 export interface ToolResponse<T> {
   results: T;
-  _metadata: ResponseMetadata;
+  _meta: ResponseMeta;
 }
 
-export function generateResponseMetadata(
+export function generateMeta(
   db: InstanceType<typeof Database>,
-): ResponseMetadata {
-  let freshness: string | undefined;
+  overrides?: Partial<ResponseMeta>,
+): ResponseMeta {
+  let data_age: string | undefined;
   try {
     const row = db.prepare(
       "SELECT value FROM db_metadata WHERE key = 'built_at'"
     ).get() as { value: string } | undefined;
-    if (row) freshness = row.value;
+    if (row) data_age = row.value.slice(0, 10);
   } catch {
     // Ignore
   }
 
   return {
-    data_source: 'Portal do Governo de Moçambique / CFJJ (cfjj.gov.mz) — Centro de Formação Jurídica e Judiciária',
-    jurisdiction: 'MZ',
     disclaimer:
       'This data is sourced from Mozambique official legal sources under Government Open Data principles. ' +
       'The authoritative versions are in Portuguese. ' +
       'Always verify with the official Portal do Governo (portaldogoverno.gov.mz) or CFJJ (cfjj.gov.mz).',
-    freshness,
+    data_age,
+    copyright: '© Portal do Governo de Moçambique / CFJJ — Government Open Data',
+    ...overrides,
   };
 }

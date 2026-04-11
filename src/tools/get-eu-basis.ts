@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateMeta, type ToolResponse } from '../utils/metadata.js';
 
 export interface GetEUBasisInput {
   document_id: string;
@@ -28,7 +28,13 @@ export async function getEUBasis(
 ): Promise<ToolResponse<EUBasisResult[]>> {
   const resolvedId = resolveDocumentId(db, input.document_id);
   if (!resolvedId) {
-    return { results: [], _metadata: generateResponseMetadata(db) };
+    return {
+      results: [],
+      _meta: {
+        ...generateMeta(db),
+        _error_type: 'not_found',
+      },
+    };
   }
 
   // Check if EU reference tables exist
@@ -37,9 +43,9 @@ export async function getEUBasis(
   } catch {
     return {
       results: [],
-      _metadata: {
-        ...generateResponseMetadata(db),
-        ...{ note: 'EU/international references not available in this database tier' },
+      _meta: {
+        ...generateMeta(db),
+        note: 'EU/international references not available in this database tier',
       },
     };
   }
@@ -77,5 +83,5 @@ export async function getEUBasis(
     }
   }
 
-  return { results: rows, _metadata: generateResponseMetadata(db) };
+  return { results: rows, _meta: generateMeta(db) };
 }
