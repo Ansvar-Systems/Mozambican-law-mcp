@@ -56,7 +56,7 @@
   "dependencies": {
     "@ansvar/mcp-sqlite": "^1.0.0",
     "@modelcontextprotocol/sdk": "^1.12.0",
-    "pdf-parse": "^1.1.1",
+    "pdf-parse": "^2.4.5",
     "zod": "^3.23.0"
   },
   "devDependencies": {
